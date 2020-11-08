@@ -1,0 +1,64 @@
+PODS:
+  - Alamofire (5.3.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - KakaJSON (1.1.2)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
+  - MJRefresh (3.5.0)
+  - RATreeView (2.1.2)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+  - UICKeyChainStore (2.1.2)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - DZNEmptyDataSet
+  - FCUUID
+  - KakaJSON
+  - Kingfisher
+  - MJRefresh
+  - RATreeView
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+  - YYCategories
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DZNEmptyDataSet
+    - FCUUID
+    - KakaJSON
+    - Kingfisher
+    - MJRefresh
+    - RATreeView
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+    - UICKeyChainStore
+    - YYCategories
+
+SPEC CHECKSUMS:
+  Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: fafcfa44ecda4f757a440d2dbb3ef9791bb3c2d4
+
+COCOAPODS: 1.9.3

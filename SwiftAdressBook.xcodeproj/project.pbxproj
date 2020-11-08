@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D7463D25567F6E001626EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7463C25567F6E001626EB /* AppDelegate.swift */; };
+		33D7464125567F6E001626EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7464025567F6E001626EB /* LoginViewController.swift */; };
+		33D7464425567F6E001626EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7464225567F6E001626EB /* Main.storyboard */; };
+		33D7464625567F6F001626EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D7464525567F6F001626EB /* Assets.xcassets */; };
+		33D7464925567F6F001626EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7464725567F6F001626EB /* LaunchScreen.storyboard */; };
+		33D7465425567F6F001626EB /* Swift____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7465325567F6F001626EB /* Swift____Tests.swift */; };
+		33D7465F25567F6F001626EB /* Swift____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7465E25567F6F001626EB /* Swift____UITests.swift */; };
+		33D746D125568586001626EB /* AdressBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D746D025568586001626EB /* AdressBookViewController.swift */; };
+		33D746D925568605001626EB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D746D825568605001626EB /* StringExtension.swift */; };
+		33D746DE2556C233001626EB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D746DD2556C233001626EB /* User.swift */; };
+		33D7473D2556CE66001626EB /* Configs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7473C2556CE66001626EB /* Configs.swift */; };
+		33D747422556D0FF001626EB /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D747412556D0FF001626EB /* NetworkTool.swift */; };
+		33D747472556D865001626EB /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D747462556D865001626EB /* ContactModel.swift */; };
+		33D7476B2556EDFF001626EB /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7476A2556EDFF001626EB /* ContactCell.swift */; };
+		EAEB3A5D388EF20867C82989 /* Pods_SwiftAdressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3006176316053C49E5079C /* Pods_SwiftAdressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D7465025567F6F001626EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D7463125567F6E001626EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D7463825567F6E001626EB;
+			remoteInfo = "Swift_通讯录";
+		};
+		33D7465B25567F6F001626EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33D7463125567F6E001626EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33D7463825567F6E001626EB;
+			remoteInfo = "Swift_通讯录";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0433610EBD94352395DA0AD4 /* Pods-SwiftAdressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdressBook.release.xcconfig"; path = "Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook.release.xcconfig"; sourceTree = "<group>"; };
+		33D7463925567F6E001626EB /* SwiftAdressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D7463C25567F6E001626EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33D7464025567F6E001626EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		33D7464325567F6E001626EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33D7464525567F6F001626EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33D7464825567F6F001626EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33D7464A25567F6F001626EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D7464F25567F6F001626EB /* SwiftAdressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAdressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D7465325567F6F001626EB /* Swift____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____Tests.swift"; sourceTree = "<group>"; };
+		33D7465525567F6F001626EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D7465A25567F6F001626EB /* SwiftAdressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftAdressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D7465E25567F6F001626EB /* Swift____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____UITests.swift"; sourceTree = "<group>"; };
+		33D7466025567F6F001626EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D746D025568586001626EB /* AdressBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdressBookViewController.swift; sourceTree = "<group>"; };
+		33D746D825568605001626EB /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		33D746DD2556C233001626EB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		33D7473C2556CE66001626EB /* Configs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
+		33D747412556D0FF001626EB /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		33D747462556D865001626EB /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		33D7476A2556EDFF001626EB /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		3A3006176316053C49E5079C /* Pods_SwiftAdressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAdressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7650197201D1B2400F343C4D /* Pods-Swift_通讯录.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_通讯录.debug.xcconfig"; path = "Target Support Files/Pods-Swift_通讯录/Pods-Swift_通讯录.debug.xcconfig"; sourceTree = "<group>"; };
+		B67ABD47875C820A5A1DA881 /* Pods-Swift_通讯录.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_通讯录.release.xcconfig"; path = "Target Support Files/Pods-Swift_通讯录/Pods-Swift_通讯录.release.xcconfig"; sourceTree = "<group>"; };
+		DB4404833DB58FFA4BCB7A6D /* Pods-SwiftAdressBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdressBook.debug.xcconfig"; path = "Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D7463625567F6E001626EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEB3A5D388EF20867C82989 /* Pods_SwiftAdressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D7464C25567F6F001626EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D7465725567F6F001626EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D7463025567F6E001626EB = {
+			isa = PBXGroup;
+			children = (
+				33D7463B25567F6E001626EB /* SwiftAdressBook */,
+				33D7465225567F6F001626EB /* Swift_通讯录Tests */,
+				33D7465D25567F6F001626EB /* Swift_通讯录UITests */,
+				33D7463A25567F6E001626EB /* Products */,
+				C4B0E27D3F47C7770E682775 /* Pods */,
+				DB8B149B0D506C56ED028AFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33D7463A25567F6E001626EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D7463925567F6E001626EB /* SwiftAdressBook.app */,
+				33D7464F25567F6F001626EB /* SwiftAdressBookTests.xctest */,
+				33D7465A25567F6F001626EB /* SwiftAdressBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D7463B25567F6E001626EB /* SwiftAdressBook */ = {
+			isa = PBXGroup;
+			children = (
+				33D7477F2557F91E001626EB /* Other */,
+				33D7477E2557F903001626EB /* NetworkTool */,
+				33D747792557F82B001626EB /* modules */,
+				33D747752557F801001626EB /* Extension */,
+				33D747712557F7F4001626EB /* Config */,
+			);
+			path = SwiftAdressBook;
+			sourceTree = "<group>";
+		};
+		33D7465225567F6F001626EB /* Swift_通讯录Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33D7465325567F6F001626EB /* Swift____Tests.swift */,
+				33D7465525567F6F001626EB /* Info.plist */,
+			);
+			path = "Swift_通讯录Tests";
+			sourceTree = "<group>";
+		};
+		33D7465D25567F6F001626EB /* Swift_通讯录UITests */ = {
+			isa = PBXGroup;
+			children = (
+				33D7465E25567F6F001626EB /* Swift____UITests.swift */,
+				33D7466025567F6F001626EB /* Info.plist */,
+			);
+			path = "Swift_通讯录UITests";
+			sourceTree = "<group>";
+		};
+		33D746CC2556854E001626EB /* AdressBook */ = {
+			isa = PBXGroup;
+			children = (
+				33D747702557F7E1001626EB /* View */,
+				33D7476F2557F7D9001626EB /* Model */,
+				33D746D025568586001626EB /* AdressBookViewController.swift */,
+			);
+			path = AdressBook;
+			sourceTree = "<group>";
+		};
+		33D7476F2557F7D9001626EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33D747462556D865001626EB /* ContactModel.swift */,
+				33D746DD2556C233001626EB /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33D747702557F7E1001626EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33D7476A2556EDFF001626EB /* ContactCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33D747712557F7F4001626EB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				33D7473C2556CE66001626EB /* Configs.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		33D747752557F801001626EB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33D746D825568605001626EB /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		33D747792557F82B001626EB /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				33D746CC2556854E001626EB /* AdressBook */,
+				33D7477A2557F838001626EB /* Login */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		33D7477A2557F838001626EB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				33D7464025567F6E001626EB /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		33D7477E2557F903001626EB /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				33D747412556D0FF001626EB /* NetworkTool.swift */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
+		33D7477F2557F91E001626EB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				33D7464525567F6F001626EB /* Assets.xcassets */,
+				33D7464A25567F6F001626EB /* Info.plist */,
+				33D7464725567F6F001626EB /* LaunchScreen.storyboard */,
+				33D7463C25567F6E001626EB /* AppDelegate.swift */,
+				33D7464225567F6E001626EB /* Main.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C4B0E27D3F47C7770E682775 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7650197201D1B2400F343C4D /* Pods-Swift_通讯录.debug.xcconfig */,
+				B67ABD47875C820A5A1DA881 /* Pods-Swift_通讯录.release.xcconfig */,
+				DB4404833DB58FFA4BCB7A6D /* Pods-SwiftAdressBook.debug.xcconfig */,
+				0433610EBD94352395DA0AD4 /* Pods-SwiftAdressBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB8B149B0D506C56ED028AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A3006176316053C49E5079C /* Pods_SwiftAdressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D7463825567F6E001626EB /* SwiftAdressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D7466325567F6F001626EB /* Build configuration list for PBXNativeTarget "SwiftAdressBook" */;
+			buildPhases = (
+				7BF0AF6BA33F0E06C7DD04A9 /* [CP] Check Pods Manifest.lock */,
+				33D7463525567F6E001626EB /* Sources */,
+				33D7463625567F6E001626EB /* Frameworks */,
+				33D7463725567F6E001626EB /* Resources */,
+				96BC7FE424D86A7AF40BADCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftAdressBook;
+			productName = "Swift_通讯录";
+			productReference = 33D7463925567F6E001626EB /* SwiftAdressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33D7464E25567F6F001626EB /* SwiftAdressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D7466625567F6F001626EB /* Build configuration list for PBXNativeTarget "SwiftAdressBookTests" */;
+			buildPhases = (
+				33D7464B25567F6F001626EB /* Sources */,
+				33D7464C25567F6F001626EB /* Frameworks */,
+				33D7464D25567F6F001626EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D7465125567F6F001626EB /* PBXTargetDependency */,
+			);
+			name = SwiftAdressBookTests;
+			productName = "Swift_通讯录Tests";
+			productReference = 33D7464F25567F6F001626EB /* SwiftAdressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33D7465925567F6F001626EB /* SwiftAdressBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D7466925567F6F001626EB /* Build configuration list for PBXNativeTarget "SwiftAdressBookUITests" */;
+			buildPhases = (
+				33D7465625567F6F001626EB /* Sources */,
+				33D7465725567F6F001626EB /* Frameworks */,
+				33D7465825567F6F001626EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33D7465C25567F6F001626EB /* PBXTargetDependency */,
+			);
+			name = SwiftAdressBookUITests;
+			productName = "Swift_通讯录UITests";
+			productReference = 33D7465A25567F6F001626EB /* SwiftAdressBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D7463125567F6E001626EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					33D7463825567F6E001626EB = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					33D7464E25567F6F001626EB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 33D7463825567F6E001626EB;
+					};
+					33D7465925567F6F001626EB = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 33D7463825567F6E001626EB;
+					};
+				};
+			};
+			buildConfigurationList = 33D7463425567F6E001626EB /* Build configuration list for PBXProject "SwiftAdressBook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33D7463025567F6E001626EB;
+			productRefGroup = 33D7463A25567F6E001626EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D7463825567F6E001626EB /* SwiftAdressBook */,
+				33D7464E25567F6F001626EB /* SwiftAdressBookTests */,
+				33D7465925567F6F001626EB /* SwiftAdressBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33D7463725567F6E001626EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D7464925567F6F001626EB /* LaunchScreen.storyboard in Resources */,
+				33D7464625567F6F001626EB /* Assets.xcassets in Resources */,
+				33D7464425567F6E001626EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D7464D25567F6F001626EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D7465825567F6F001626EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BF0AF6BA33F0E06C7DD04A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftAdressBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96BC7FE424D86A7AF40BADCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D7463525567F6E001626EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D7476B2556EDFF001626EB /* ContactCell.swift in Sources */,
+				33D7464125567F6E001626EB /* LoginViewController.swift in Sources */,
+				33D746D125568586001626EB /* AdressBookViewController.swift in Sources */,
+				33D747472556D865001626EB /* ContactModel.swift in Sources */,
+				33D747422556D0FF001626EB /* NetworkTool.swift in Sources */,
+				33D746DE2556C233001626EB /* User.swift in Sources */,
+				33D746D925568605001626EB /* StringExtension.swift in Sources */,
+				33D7463D25567F6E001626EB /* AppDelegate.swift in Sources */,
+				33D7473D2556CE66001626EB /* Configs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D7464B25567F6F001626EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D7465425567F6F001626EB /* Swift____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33D7465625567F6F001626EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D7465F25567F6F001626EB /* Swift____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33D7465125567F6F001626EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D7463825567F6E001626EB /* SwiftAdressBook */;
+			targetProxy = 33D7465025567F6F001626EB /* PBXContainerItemProxy */;
+		};
+		33D7465C25567F6F001626EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33D7463825567F6E001626EB /* SwiftAdressBook */;
+			targetProxy = 33D7465B25567F6F001626EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33D7464225567F6E001626EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D7464325567F6E001626EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33D7464725567F6F001626EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33D7464825567F6F001626EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33D7466125567F6F001626EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33D7466225567F6F001626EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D7466425567F6F001626EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4404833DB58FFA4BCB7A6D /* Pods-SwiftAdressBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRN7UWLM6M;
+				INFOPLIST_FILE = SwiftAdressBook/Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epipe.Epipe111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33D7466525567F6F001626EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0433610EBD94352395DA0AD4 /* Pods-SwiftAdressBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRN7UWLM6M;
+				INFOPLIST_FILE = SwiftAdressBook/Other/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epipe.Epipe111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33D7466725567F6F001626EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRN7UWLM6M;
+				INFOPLIST_FILE = "Swift_通讯录Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epipe.Epipe.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAdressBook.app/SwiftAdressBook";
+			};
+			name = Debug;
+		};
+		33D7466825567F6F001626EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRN7UWLM6M;
+				INFOPLIST_FILE = "Swift_通讯录Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epipe.Epipe.Swift----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftAdressBook.app/SwiftAdressBook";
+			};
+			name = Release;
+		};
+		33D7466A25567F6F001626EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRN7UWLM6M;
+				INFOPLIST_FILE = "Swift_通讯录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epipe.Epipe.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift_通讯录";
+			};
+			name = Debug;
+		};
+		33D7466B25567F6F001626EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRN7UWLM6M;
+				INFOPLIST_FILE = "Swift_通讯录UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epipe.Epipe.Swift----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift_通讯录";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D7463425567F6E001626EB /* Build configuration list for PBXProject "SwiftAdressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D7466125567F6F001626EB /* Debug */,
+				33D7466225567F6F001626EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D7466325567F6F001626EB /* Build configuration list for PBXNativeTarget "SwiftAdressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D7466425567F6F001626EB /* Debug */,
+				33D7466525567F6F001626EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D7466625567F6F001626EB /* Build configuration list for PBXNativeTarget "SwiftAdressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D7466725567F6F001626EB /* Debug */,
+				33D7466825567F6F001626EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D7466925567F6F001626EB /* Build configuration list for PBXNativeTarget "SwiftAdressBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D7466A25567F6F001626EB /* Debug */,
+				33D7466B25567F6F001626EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D7463125567F6E001626EB /* Project object */;
+}

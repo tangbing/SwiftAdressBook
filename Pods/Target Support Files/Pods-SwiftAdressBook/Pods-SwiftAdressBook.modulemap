@@ -1,0 +1,6 @@
+framework module Pods_SwiftAdressBook {
+  umbrella header "Pods-SwiftAdressBook-umbrella.h"
+
+  export *
+  module * { export * }
+}
