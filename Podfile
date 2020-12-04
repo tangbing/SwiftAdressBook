@@ -16,4 +16,5 @@ target 'SwiftAdressBook' do
     pod 'FCUUID'
     pod 'RATreeView'
     pod 'DZNEmptyDataSet'
+    pod 'HandyJSON'
 end

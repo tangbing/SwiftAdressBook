@@ -32,7 +32,9 @@ class AdressBookViewController: UIViewController {
     var iconShowType  = imageShowType.arrowType
     
     
-    var addressUrl = Configs.BaseUrl + "/organ/addressbook"
+    final var addressUrl = "organ/addressbook"
+    
+    
     lazy var contentModels = [ContactModel]()
     lazy var dataSourceArray = [NodeModel]()
     lazy var treeView: RATreeView = {
@@ -53,6 +55,7 @@ class AdressBookViewController: UIViewController {
         view.backgroundColor = .white
         loadData()
         setupUI()
+        
     }
     
     func setupUI() {
@@ -61,46 +64,79 @@ class AdressBookViewController: UIViewController {
     
     func loadData() {
         
-        guard let token = UserDefaults.AccountInfo.string(forKey: .userToken)  else {
+        guard let _ = UserDefaults.AccountInfo.string(forKey: .userToken)  else {
             return
         }
         
-        let requestHeader : HTTPHeaders = ["auth_token" : token, "_client" : "ios","imei" : FCUUID.uuidForDevice()! , "ua": String.deviceInfo];
-        
-        AF.request(addressUrl, method: .get, parameters: ["showGroup" : true], encoding: URLEncoding.default, headers: requestHeader).responseJSON {[weak self] response in
+        NetworkTool.share.loadGetRequest(addressUrl, parameters: ["showGroup" : true]) {[weak self] response in
             SVProgressHUD.dismiss()
-            debugPrint(response)
+            //debugPrint(response)
             
-            guard let dict = response.value else {
-                return}
-            let code = JSON(dict)["h"]["code"].intValue
+            let code = JSON(response)["h"]["code"].intValue
             if code == 200 {
-                let jsonString = JSON(dict)["b"].dictionaryObject
+                let jsonString = JSON(response)["b"].dictionaryObject
                 guard let dataString = jsonString?["data"] else {return}
-                
+
                 guard let json = dataString as? [[String : Any]] else{
                     print("json为空")
                     return}
-                
-                print("resultJson:\(json)")
+
+                //print("resultJson:\(json)")
                 let models = json.kj.modelArray(type: ContactModel.self) as! [ContactModel]
                 print(models)
                 self?.contentModels.removeAll()
                 self?.contentModels.append(contentsOf: models)
-                print(self?.contentModels ?? nil)
-                
+
                 self?.contentModels.forEach{
                     let array = self?.handelOffices($0.offices!)
                     let node = NodeModel(nameStr: $0.name, IdStr: $0.id, staffsModel: nil, childrens: array)
                     self?.dataSourceArray.append(node)
                 }
-                
+
                 self?.treeView.reloadData()
 
             } else {
                 print("请求失败！")
             }
+            
+        } failure: { errorStr in
+            debugPrint("请求失败！" + errorStr)
         }
+
+//        AF.request(addressUrl, method: .get, parameters: ["showGroup" : true], encoding: URLEncoding.default, headers: requestHeader).responseJSON {[weak self] response in
+//            SVProgressHUD.dismiss()
+//            debugPrint(response)
+//
+//            guard let dict = response.value else {
+//                return}
+//            let code = JSON(dict)["h"]["code"].intValue
+//            if code == 200 {
+//                let jsonString = JSON(dict)["b"].dictionaryObject
+//                guard let dataString = jsonString?["data"] else {return}
+//
+//                guard let json = dataString as? [[String : Any]] else{
+//                    print("json为空")
+//                    return}
+//
+//                print("resultJson:\(json)")
+//                let models = json.kj.modelArray(type: ContactModel.self) as! [ContactModel]
+//                print(models)
+//                self?.contentModels.removeAll()
+//                self?.contentModels.append(contentsOf: models)
+//                print(self?.contentModels ?? nil)
+//
+//                self?.contentModels.forEach{
+//                    let array = self?.handelOffices($0.offices!)
+//                    let node = NodeModel(nameStr: $0.name, IdStr: $0.id, staffsModel: nil, childrens: array)
+//                    self?.dataSourceArray.append(node)
+//                }
+//
+//                self?.treeView.reloadData()
+//
+//            } else {
+//                print("请求失败！")
+//            }
+//        }
     }
     
     private func handelOffices(_ officeModelsArray: [Offices]) -> [NodeModel] {

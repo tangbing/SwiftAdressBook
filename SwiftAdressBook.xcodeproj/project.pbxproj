@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33B0D71025601545004D1492 /* CheckLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B0D70F25601545004D1492 /* CheckLogViewController.swift */; };
 		33D7463D25567F6E001626EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7463C25567F6E001626EB /* AppDelegate.swift */; };
 		33D7464125567F6E001626EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7464025567F6E001626EB /* LoginViewController.swift */; };
 		33D7464425567F6E001626EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D7464225567F6E001626EB /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		33D747422556D0FF001626EB /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D747412556D0FF001626EB /* NetworkTool.swift */; };
 		33D747472556D865001626EB /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D747462556D865001626EB /* ContactModel.swift */; };
 		33D7476B2556EDFF001626EB /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D7476A2556EDFF001626EB /* ContactCell.swift */; };
+		33DDD33B25602CF600ACC93E /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DDD33A25602CF600ACC93E /* GlobalConst.swift */; };
 		EAEB3A5D388EF20867C82989 /* Pods_SwiftAdressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3006176316053C49E5079C /* Pods_SwiftAdressBook.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		0433610EBD94352395DA0AD4 /* Pods-SwiftAdressBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftAdressBook.release.xcconfig"; path = "Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook.release.xcconfig"; sourceTree = "<group>"; };
+		33B0D70F25601545004D1492 /* CheckLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLogViewController.swift; sourceTree = "<group>"; };
 		33D7463925567F6E001626EB /* SwiftAdressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAdressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D7463C25567F6E001626EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D7464025567F6E001626EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +66,7 @@
 		33D747412556D0FF001626EB /* NetworkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
 		33D747462556D865001626EB /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		33D7476A2556EDFF001626EB /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		33DDD33A25602CF600ACC93E /* GlobalConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
 		3A3006176316053C49E5079C /* Pods_SwiftAdressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftAdressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7650197201D1B2400F343C4D /* Pods-Swift_通讯录.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_通讯录.debug.xcconfig"; path = "Target Support Files/Pods-Swift_通讯录/Pods-Swift_通讯录.debug.xcconfig"; sourceTree = "<group>"; };
 		B67ABD47875C820A5A1DA881 /* Pods-Swift_通讯录.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_通讯录.release.xcconfig"; path = "Target Support Files/Pods-Swift_通讯录/Pods-Swift_通讯录.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +99,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33B0D70E2560152D004D1492 /* CheckLogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				33B0D70F25601545004D1492 /* CheckLogViewController.swift */,
+			);
+			path = CheckLogViewController;
+			sourceTree = "<group>";
+		};
 		33D7463025567F6E001626EB = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				33D746D825568605001626EB /* StringExtension.swift */,
+				33DDD33A25602CF600ACC93E /* GlobalConst.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -193,6 +206,7 @@
 		33D747792557F82B001626EB /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				33B0D70E2560152D004D1492 /* CheckLogViewController */,
 				33D746CC2556854E001626EB /* AdressBook */,
 				33D7477A2557F838001626EB /* Login */,
 			);
@@ -428,6 +442,8 @@
 				33D746DE2556C233001626EB /* User.swift in Sources */,
 				33D746D925568605001626EB /* StringExtension.swift in Sources */,
 				33D7463D25567F6E001626EB /* AppDelegate.swift in Sources */,
+				33B0D71025601545004D1492 /* CheckLogViewController.swift in Sources */,
+				33DDD33B25602CF600ACC93E /* GlobalConst.swift in Sources */,
 				33D7473D2556CE66001626EB /* Configs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

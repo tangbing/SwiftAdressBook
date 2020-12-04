@@ -3,6 +3,7 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - FCUUID (1.3.1):
     - UICKeyChainStore (~> 2.1.0)
+  - HandyJSON (5.0.2)
   - KakaJSON (1.1.2)
   - Kingfisher (5.15.7):
     - Kingfisher/Core (= 5.15.7)
@@ -21,6 +22,7 @@ DEPENDENCIES:
   - Alamofire
   - DZNEmptyDataSet
   - FCUUID
+  - HandyJSON
   - KakaJSON
   - Kingfisher
   - MJRefresh
@@ -35,6 +37,7 @@ SPEC REPOS:
     - Alamofire
     - DZNEmptyDataSet
     - FCUUID
+    - HandyJSON
     - KakaJSON
     - Kingfisher
     - MJRefresh
@@ -49,6 +52,7 @@ SPEC CHECKSUMS:
   Alamofire: 2c792affbdc2f18016e08fdbcacd60aebe1ba593
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
   Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
@@ -59,6 +63,6 @@ SPEC CHECKSUMS:
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: fafcfa44ecda4f757a440d2dbb3ef9791bb3c2d4
+PODFILE CHECKSUM: 6010adb3ef80c315ba939f1d9954ebe55a8505df
 
 COCOAPODS: 1.9.3

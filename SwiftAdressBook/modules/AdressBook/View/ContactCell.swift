@@ -13,7 +13,6 @@ class ContactCell: UITableViewCell {
 
     lazy var headImageView: UIImageView = {
         let iv = UIImageView()
-
         return iv
     }()
     
@@ -30,11 +29,7 @@ class ContactCell: UITableViewCell {
             self.nameLab.text = staffModel.name;
         }
     }
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+
     
     public func updateSubViewFrame(leaveInt level: Int, showType: imageShowType) {
   

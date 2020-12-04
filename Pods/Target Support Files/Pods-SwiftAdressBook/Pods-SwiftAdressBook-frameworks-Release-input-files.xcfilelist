@@ -2,6 +2,7 @@ ${PODS_ROOT}/Target Support Files/Pods-SwiftAdressBook/Pods-SwiftAdressBook-fram
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
 ${BUILT_PRODUCTS_DIR}/FCUUID/FCUUID.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
 ${BUILT_PRODUCTS_DIR}/KakaJSON/KakaJSON.framework
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework

@@ -6,5 +6,5 @@
 //
 
 struct Configs {
-    static let BaseUrl = "https://apps.epipe.cn/member/v3"
+    static let BaseUrl = "https://apps.epipe.cn/member/v3/"
 }
