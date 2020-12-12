@@ -15,11 +15,7 @@ import RATreeView
 import DZNEmptyDataSet
 import YYCategories
 
-//extension UIView {
-//    var right: CGFloat {
-//        return self.frame.origin.x + self.frame.size.width
-//    }
-//}
+
 
 enum imageShowType: Int {
     case profileImgType = 0, arrowType

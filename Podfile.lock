@@ -8,7 +8,9 @@ PODS:
   - Kingfisher (5.15.7):
     - Kingfisher/Core (= 5.15.7)
   - Kingfisher/Core (5.15.7)
+  - Masonry (1.1.0)
   - MJRefresh (3.5.0)
+  - RAMAnimatedTabBarController (5.2.0)
   - RATreeView (2.1.2)
   - SnapKit (5.0.1)
   - SVProgressHUD (2.2.5)
@@ -25,7 +27,9 @@ DEPENDENCIES:
   - HandyJSON
   - KakaJSON
   - Kingfisher
+  - Masonry
   - MJRefresh
+  - RAMAnimatedTabBarController
   - RATreeView
   - SnapKit
   - SVProgressHUD
@@ -40,7 +44,9 @@ SPEC REPOS:
     - HandyJSON
     - KakaJSON
     - Kingfisher
+    - Masonry
     - MJRefresh
+    - RAMAnimatedTabBarController
     - RATreeView
     - SnapKit
     - SVProgressHUD
@@ -55,7 +61,9 @@ SPEC CHECKSUMS:
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
   Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  RAMAnimatedTabBarController: 6863a386e7ae2ab227cd60aa73ab8ff56cdacfdd
   RATreeView: 380cde0090cfde21dc6ac29137f49d3b768fdd28
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
@@ -63,6 +71,6 @@ SPEC CHECKSUMS:
   UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 6010adb3ef80c315ba939f1d9954ebe55a8505df
+PODFILE CHECKSUM: dd014390ea5ac20794f71d46d4b4ab75dc53499f
 
 COCOAPODS: 1.9.3

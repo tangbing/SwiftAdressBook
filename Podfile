@@ -17,4 +17,6 @@ target 'SwiftAdressBook' do
     pod 'RATreeView'
     pod 'DZNEmptyDataSet'
     pod 'HandyJSON'
+    pod 'RAMAnimatedTabBarController'
+    pod 'Masonry'
 end
